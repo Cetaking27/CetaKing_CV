@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans:wght@400&family=Rambla&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: #283655 !important;
+    background-color: #f7faff !important;
+    font-family: 'Rambla', sans-serif;
+}
+h2, h3 {
+    font-family: 'audiowide', sans-serif ;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: -2px -2px 2px #283655;
+}
+li {
+    list-style-type: none;
+}
+/************************ HEADER ********************* */
+.navbar {
+    background-color: #fafafa;
+    opacity: 0.9px;
+    height: 50px;
+    transition: 0.5s;
+}
+.navbar-nav {
+    width: 80% !important;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-size: 2.7em;
+    text-shadow: #283655;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    text-align:  center;
+    height:  300vh;
+    background:  url(media/header.jpg) no-repeat fixed 50% 50%;
+    background-size: cover; 
+}
+h1 {
+    padding: 100px 0 15px 0;
+    font-family:  'Josefin Sans', sans-serif;
+    font-size:  4.1em;
+    text-transform: uppercase;
+}
+#line{
+    height: 2px;
+    background-color:  #b3aca7;
+    width: 40%;
+    margin: 0 auto;
+}
+h2{
+    padding: 20px 0 60px 0 ;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.presentation{
+    height:300px;
+    margin-top: 150px;
+    font-size: 1.8em;
+}
+.infos{
+    border: 3px solid #b3aca7;
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.photo{
+    border: 2px solid #b3aca7;
+    position: relative; 
+}
+.photo img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    max-width: 150%;
+    border-radius: 15px;
+    box-shadow: 0 0 100px #111;
+}
+header .button {
+    
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -90.5px;
+    
+}
+header .button a {
+    padding:  30px 60px;
+    border: 2px solid #b3aca7;
+    width: 300px;
+}
+header .button:hover a {
+    background:  #b3aca7;
+    color: #e2dedb;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+/********************************* Section *************************/
+#languages {
+    padding: 70px 80px 80px 50px;
+    margin: 20px 0 0 9%;
+    height: 800px;
+    width: 50%;
+    max-width: 750px;
+    background: linear-gradient(90deg,rgba(15,177,255,0.99) 5%, rgba(0,0,0,0.48) 100%);
+    clip-path: polygon(81% 0, 100% 53%, 76% 100%, 0 88%, 8% 51%, 0 9%);
+}
+#languages .bar{
+    padding: 15px 0 10px 20px;
+}
+/********************************* Formation *************************/
+#Formation {
+    position: relative;
+    top: -330px;
+    float: right;
+    height: 1000%;
+    text-align: center;
+    margin-right: 10%;
+    padding: 80px 5px 35px 60px;
+    width: 50%;
+    max-width: 700px;
+    background: linear-gradient(90deg,rgba(146,165,175,0.99) 5%, rgba(248,245,0,0.9) 100%);
+    clip-path: polygon(98% 9%, 75% 50%, 100% 100%, 22% 96%, 0 41%, 24% 3%);
+}
+#Formation h3 {
+    font-size: 2.8em;
+    text-shadow: -1px -1px 1px #0e3b9b;
+  
+}
+#fauc{
+    padding: 1px 0 0 5%;
+    text-align: left;
+}
+#facc {
+    padding: 1px 0 0 0%;
+    text-align: left;
+}
+#foc #fac {
+    padding: 50px 0 0 10%;
+    position: relative;
+    right: -350px;
+    float: right;
+    top: 10px;  
+}
+#Formation h4{
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    padding-bottom: 10px;
+    color:rgb(54, 12, 54);
+    text-shadow: -1px -1px 1px #0e3b9b;
+}
+.counter {
+    display: flex;
+    text-align: center;
+}
+.data {
+    border: 1px solid #8aa872;
+    margin: 0 2%;
+    width: 180px;
+    box-shadow: 0 0 2px #1c9d;
+    padding: 5px 20px;  
+}
+.counter-value {
+    font-size: 1em;
+}
+.data-span {
+    font-size: 1.8em;
+}
+#fac .data{
+    margin: 2%;
+    margin-left: 100px;
+}
+/********************************* Parcours *************************/
+
+#parcours {
+    max-width: 800px;
+    margin: 640px auto 180px auto;
+    padding: 40px 30px 100px 30px;
+    background: url(./media/parcours.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: -1px -1px 8px #283655;
+}
+#parcours h3 {
+    font-size: 2.5em;
+    padding-bottom: 30px;
+}
+#parcours h4 {
+    font-size: 1.6em;
+    color: #ff4ece;
+    margin-left: 20px;
+}
+#parcours h6 {
+    font-style: italic;
+    color:gold;
+    margin-left: 20px;
+}
+#parcours p {
+    line-height: 1.9em;
+}
+.timeline {
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, #f9d423, #ff4e5e);
+    border-image-slice: 1;
+    margin: 0;
+    padding: 40px;
+    position: relative;
+}
+.timeline:nth-child(1)::after {
+    content: '▲';
+    color: #ff4ece;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    box-sizing: content-box  !important;
+}
+.timeline:nth-child(1) {
+    border-bottom: solid;
+    border-top: none;
+    width: 80%;
+}
+.timeline:nth-child(2) {
+    border-top: none; 
+}
+.timeline:nth-child(odd) { /*les balises child(odd) --> permettent de cibler les elments impaire. */
+    border-right: 3px solid;
+    padding-left: 0;
+}
+.timeline:nth-child(even) { /*les balises child(even) --> permettent de cibler les elments paire. */
+    border-left: 3px solid;
+    padding-right: 0;
+}
