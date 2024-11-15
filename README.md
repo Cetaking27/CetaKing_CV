@@ -16,4 +16,5 @@ The primary goal of this project is to create my first professional CV while lea
 4. Gain hands-on experience with web development tools and workflows.
 
 This project serves as a stepping stone to mastering web development fundamentals while achieving a tangible, professional result.
-![learning to code](https://mir-s3-cdn-cf.behance.net/projects/max_808/35d6d971255387.Y3JvcCwxMzgwLDEwODAsNDQsMA.jpg){: width="300" height="auto"}
+![learning to code](https://mir-s3-cdn-cf.behance.net/projects/max_808/35d6d971255387.Y3JvcCwxMzgwLDEwODAsNDQsMA.jpg}{: width="300" height="auto"} 
+<img src="https://mir-s3-cdn-cf.behance.net/projects/max_808/35d6d971255387.Y3JvcCwxMzgwLDEwODAsNDQsMA.jpg" alt="learning to code" width="300">
